@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ODS 4 - Educação de Qualidade: site educativo acessível com vídeo, propostas, quiz, selos e plano de ação.">
+    <title>ODS 4 - Educação de Qualidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
+
+    
+    <div class="sr-only" id="avisos" role="status" aria-live="polite"></div>
+
+    <header class="topo">
+        <a class="marca" href="#inicio" aria-label="ODS 4 - voltar ao início">
+            <span class="marca-numero" aria-hidden="true">4</span>
+            <span><strong>ODS 4</strong><small>Educação de Qualidade</small></span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="menuPrincipal">
+            <span aria-hidden="true">☰</span>
+            <span class="sr-only">Abrir menu</span>
+        </button>
+
+        <nav class="menu" id="menuPrincipal" aria-label="Navegação principal">
+            <a href="#ods4">ODS 4</a>
+            <a href="#propostas">Propostas</a>
+            <a href="#quiz">Quiz</a>
+            <a href="#plano">Plano de ação</a>
+            <a href="#acessibilidade">Acessibilidade</a>
+            <a class="link-destaque" href="#pdf">Baixar PDF</a>
+        </nav>
+    </header>
+
+    <div class="barra-acessibilidade" role="region" aria-label="Opções de acessibilidade">
+        <span class="toolbar-titulo">Ajustes rápidos</span>
+        <div class="toolbar-acoes">
+            <button id="fonteButton" type="button">A+ Fonte <span id="fonteValor">100%</span></button>
+            <button id="contrasteButton" type="button" aria-pressed="false">◐ Alto contraste</button>
+            <button id="temaButton" type="button" aria-pressed="false">☾ Tema escuro</button>
+            <button id="dislexiaButton" type="button" aria-pressed="false">Aa Leitura fácil</button>
+            <button id="ouvirButton" type="button" aria-pressed="false">🔊 Ouvir página</button>
+        </div>
+    </div>
+
+    <main id="conteudo">
+
+        
+        <section class="hero" id="inicio" aria-labelledby="tituloPrincipal">
+            <div class="hero-conteudo">
+                <p class="etiqueta">Meta global ONU 2030 · Educação inclusiva</p>
+                <h1 id="tituloPrincipal">Educação de qualidade <em>para todas as pessoas.</em></h1>
+                <p class="hero-texto">Até 2030, garantir que todas as meninas e meninos completem o ensino fundamental e médio, equitativo e de qualidade, na idade adequada, com oferta gratuita na rede pública e resultados de aprendizagem relevantes.</p>
+                <blockquote class="citacao">
+                    <p>"A educação não muda o mundo. A educação muda as pessoas. As pessoas mudam o mundo."</p>
+                    <cite>Paulo Freire</cite>
+                </blockquote>
+                <div class="hero-acoes">
+                    <a class="botao botao-vermelho" href="#quiz">▶ Fazer o quiz</a>
+                    <a class="botao botao-amarelo" href="#plano">✎ Criar meu plano</a>
+                    <button class="botao-link" id="ouvirHero" type="button">🔊 Ouvir esta página</button>
+                </div>
+                <div class="numeros" aria-label="Resumo da ODS 4">
+                    <div><strong>10</strong><span>metas globais</span></div>
+                    <div><strong>2030</strong><span>Agenda de transformação</span></div>
+                    <div><strong>100%</strong><span>direito de incluir</span></div>
+                </div>
+            </div>
+
+            <div class="hero-midia">
+                <div class="video-area">
+                    <div class="video-moldura">
+                        <iframe src="https://www.youtube.com/embed/LCRdSzZkjtQ"
+                            title="Vídeo: ODS 4 - Educação de Qualidade, do Centro Cultural Light"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <span class="adesivo adesivo-amarelo" aria-hidden="true">Aprender<br>é um direito</span>
+                </div>
+
+                <!-- TRANSCRIÇÃO DO VÍDEO -->
+                <details class="transcricao" id="transcricao">
+                    <summary>
+                        <span aria-hidden="true">💬</span>
+                        Ler a transcrição do vídeo <small>(3min39s)</small>
+                    </summary>
+                    <div class="transcricao-texto" tabindex="0" aria-label="Transcrição completa do vídeo">
+                        <p class="transcricao-aviso">Transcrição em texto da narração, com descrição das imagens entre colchetes.</p>
+                        <ol>
+                            <li><time>00:00</time> <span class="som">[Música animada. Na tela: "ODS em Pauta". "Bem-vindos ao canal do Centro Cultural Light".]</span></li>
+                            <li><time>00:05</time> Hoje vamos falar sobre o ODS 4 - Educação de Qualidade. <span class="som">[Ícone de um livro aberto e um lápis.]</span></li>
+                            <li><time>00:10</time> Sem educação não há solução. E isso não é exagero. <span class="som">[Uma mão desenha um livro aberto com uma criança sorrindo em cima.]</span></li>
+                            <li><time>00:15</time> A educação, também conhecida como "a base de tudo", é o que vai pavimentar a estrada que leva ao nosso principal objetivo: chegarmos em 2030 muito melhores do que somos.</li>
+                            <li><time>00:23</time> Mas o que precisamos para nos preparar para essa jornada?</li>
+                            <li><time>00:31</time> Todo longo caminho começa com um primeiro passo. E nesse caso, é assegurar um ambiente sadio para que as crianças possam desenvolver o aprendizado de forma plena, com máxima qualidade, desde a primeira infância.</li>
+                            <li><time>00:47</time> Isso não depende apenas de construir e melhorar instalações educacionais. <span class="som">[Crianças de alturas diferentes; uma delas usa cadeira de rodas.]</span></li>
+                            <li><time>00:52</time> Para garantir que possamos completar o ensino primário e secundário livre, é necessário que todas as crianças estejam em pé de igualdade, eliminando as disparidades entre gêneros, etnias e vulnerabilidades. <span class="som">[Uma rampa permite que a criança em cadeira de rodas chegue ao mesmo lugar que as outras.]</span></li>
+                            <li><time>01:08</time> Garantir a alfabetização e o conhecimento básico de matemática a todos os jovens, incluindo povos indígenas e pessoas com deficiência, é a certeza de que estamos todos caminhando rumo ao mesmo destino. <span class="som">[Quadro com "2 + 2 = 4".]</span></li>
+                            <li><time>01:24</time> Assim como as crianças, alguns países também estão em desenvolvimento. E nesses tempos em que o planeta parece dar voltas cada vez mais rápidas, eles também precisam de apoio para atingirem suas metas. <span class="som">[O planeta Terra aparece com braços, pernas e chapéu de formatura.]</span></li>
+                            <li><time>01:39</time> Através do intercâmbio de conhecimento, podemos investir na capacitação e formação de educadores, aumentando de forma substancial o número de professores qualificados.</li>
+                            <li><time>01:51</time> Paralelo a isso, temos que ampliar de maneira global o número de bolsas de estudos destinadas aos países em desenvolvimento. Por meio da cooperação internacional, podemos garantir que estaremos todos na mesma página em 2030. <span class="som">[Estudante com diploma e mala; um avião passa.]</span></li>
+                            <li><time>02:09</time> Num mundo tão conectado, todos os caminhos apontam para o mesmo destino. Assegurando a igualdade de acesso ao ensino superior, poderemos aumentar o número de jovens e adultos com competências técnicas e profissionais para ingressar no mercado de trabalho, assim como fomentar o empreendedorismo. <span class="som">[Placa com setas escritas "Educação".]</span></li>
+                            <li><time>02:31</time> Os desafios são muitos e milhões de cabeças pensam melhor que uma.</li>
+                            <li><time>02:35</time> Mas nada disso adianta se não nos atentarmos para a sustentabilidade. Sem que a educação aponte para o desenvolvimento de habilidades e conhecimentos necessários para adequar nossos estilos de vida nesse sentido, não estaremos devidamente capacitados para atingir nossas metas.</li>
+                            <li><time>02:55</time> Garantir um ambiente inclusivo é essencial para o desenvolvimento global do ambiente educacional.</li>
+                            <li><time>03:00</time> Promovendo a igualdade e a cooperação entre as nações, poderemos preparar as próximas gerações para os novos desafios, usando a melhor das soluções: educação de qualidade em prol da sustentabilidade.</li>
+                            <li><time>03:15</time> Se você assistiu o vídeo do ODS 4, certamente tem afinidade com esse tema e foi inspirado a contribuir. Compartilhe, converse com outras pessoas e, juntos, vamos construir um mundo melhor. <span class="som">[Pessoas diversas de mãos dadas.]</span></li>
+                            <li><time>03:32</time> <span class="som">[Música suave. Logotipos da Light, ANEEL e Programa de Eficiência Energética.]</span></li>
+                        </ol>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        
+        <section class="secao" id="ods4" aria-labelledby="tituloOds">
+            <div class="cabecalho-secao">
+                <div>
+                    <span class="numero-secao">01 / 05</span>
+                    <h2 id="tituloOds">Não é só chegar.<br><span>É conseguir aprender.</span></h2>
+                </div>
+                <p>A educação é um direito humano. A ODS 4 faz parte da Agenda 2030 e convida governos, escolas, famílias e estudantes a remover barreiras.</p>
+            </div>
+            <div class="grade-cartoes">
+                <article class="cartao cartao-vermelho">
+                    <span class="cartao-etiqueta">Visão geral</span>
+                    <h3>Educação é um direito, não um privilégio.</h3>
+                    <p>Qualidade também significa participação, segurança, acolhimento e condições para cada pessoa aprender.</p>
+                </article>
+                <article class="cartao cartao-amarelo">
+                    <span class="numero-gigante" aria-hidden="true">4</span>
+                    <div class="cartao-sobreposto">
+                        <span class="cartao-etiqueta">Objetivo global</span>
+                        <h3>Uma escola melhor começa com uma pergunta:</h3>
+                        <p>Quem ainda está encontrando barreiras para aprender?</p>
+                    </div>
+                </article>
+                <article class="cartao cartao-escuro">
+                    <span class="cartao-etiqueta">10 metas conectadas</span>
+                    <p>Da primeira infância à formação docente, cada meta chama para uma transformação coletiva.</p>
+                    <div class="pills"><span>infância</span><span>equidade</span><span>futuro</span></div>
+                </article>
+                <article class="cartao cartao-ciano">
+                    <span class="cartao-etiqueta">Para todas as pessoas</span>
+                    <h3>Diferentes formas de aprender enriquecem todo mundo.</h3>
+                    <p>"Educar é semear com sabedoria e colher com paciência o futuro de uma nação."</p>
+                </article>
+            </div>
+        </section>
+
+        <div class="faixa" aria-hidden="true">ACESSO <b>✳</b> EQUIDADE <b>✳</b> PARTICIPAÇÃO <b>✳</b> APRENDIZAGEM <b>✳</b> ACESSO <b>✳</b> EQUIDADE</div>
+
+        <!-- 02 PROPOSTAS -->
+        <section class="secao secao-bege" id="propostas" aria-labelledby="tituloPropostas">
+            <div class="cabecalho-secao">
+                <div>
+                    <span class="numero-secao">02 / 05</span>
+                    <h2 id="tituloPropostas">Aprender sem<br><span>barreiras.</span></h2>
+                </div>
+                <p>Acessibilidade é uma prática diária. Estas propostas transformam direitos em escolhas concretas dentro e fora da escola.</p>
+            </div>
+            <div class="propostas-grid" id="propostasGrid"></div>
+            <aside class="chamada">
+                <strong>💡 Comece pequeno. Faça junto.</strong>
+                <p>Ouça estudantes, famílias e educadores. A melhor solução nasce de quem vive a barreira.</p>
+                <a href="#quiz">Ir para o desafio →</a>
+            </aside>
+        </section>
+
+       
+        <section class="secao quiz-secao" id="quiz" aria-labelledby="tituloQuiz">
+            <div class="cabecalho-secao">
+                <div>
+                    <span class="numero-secao">03 / 05</span>
+                    <h2 id="tituloQuiz">Desafio do<br><span>conhecimento.</span></h2>
+                </div>
+                <p>6 perguntas e 3 selos para conquistar: <strong>Inclusão</strong>, <strong>Equidade</strong> e <strong>Aprendizagem</strong>. Acerte as 2 perguntas de um tema para ganhar o selo.</p>
+            </div>
+            <div class="quiz" id="quizContainer"></div>
+        </section>
+
+        <!-- 04 PLANO DE AÇÃO -->
+        <section class="secao plano-secao" id="plano" aria-labelledby="tituloPlano">
+            <div class="cabecalho-secao">
+                <div>
+                    <span class="numero-secao">04 / 05</span>
+                    <h2 id="tituloPlano">Seu plano<br><span>de ação.</span></h2>
+                </div>
+                <p>Escolha uma ação possível para sua escola ou comunidade. Você recebe um resumo com objetivo, primeiro passo e possíveis parceiros.</p>
+            </div>
+
+            <div class="plano-layout">
+                <form class="plano-form" id="planoForm" novalidate>
+                    <fieldset>
+                        <legend>1. Qual ação você quer começar?</legend>
+                        <div class="acoes-grid" id="acoesGrid"></div>
+                    </fieldset>
+
+                    <label for="escolaNome">2. Nome da escola ou comunidade (opcional)</label>
+                    <input id="escolaNome" type="text" maxlength="80" placeholder="Ex.: Escola Estadual Paulo Freire">
+
+                    <label for="prazo">3. Em quanto tempo você quer dar o primeiro passo?</label>
+                    <select id="prazo">
+                        <option value="esta semana">Esta semana</option>
+                        <option value="este mês" selected>Este mês</option>
+                        <option value="este semestre">Este semestre</option>
+                    </select>
+
+                    <p class="erro" id="planoErro" role="alert"></p>
+                    <button class="botao botao-vermelho" type="submit">✓ Gerar meu plano</button>
+                </form>
+
+                <div class="plano-resumo" id="planoResumo" tabindex="-1" aria-live="polite">
+                    <p class="plano-vazio">Seu resumo vai aparecer aqui depois que você escolher uma ação.</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="secao acessibilidade-secao" id="acessibilidade" aria-labelledby="tituloAcessibilidade">
+            <div class="cabecalho-secao">
+                <div>
+                    <span class="numero-secao">05 / 05</span>
+                    <h2 id="tituloAcessibilidade">Acessibilidade<br><span>é estrutura.</span></h2>
+                </div>
+                <p>Use os controles no topo para ajustar o site ao seu jeito de aprender. Navegue com o teclado e encontre textos equivalentes para conteúdos visuais e sonoros.</p>
+            </div>
+            <div class="recursos-acessibilidade">
+                <article><span aria-hidden="true">⌨</span><h3>Teclado primeiro</h3><p>Tab, Enter e Espaço conduzem cada interação com foco bem visível.</p></article>
+                <article><span aria-hidden="true">💬</span><h3>Vídeo com transcrição</h3><p>Pessoas surdas ou com deficiência auditiva podem ler tudo o que é falado no vídeo.</p></article>
+                <article><span aria-hidden="true">◉</span><h3>Mais de um caminho</h3><p>Texto, áudio, contraste, tamanho da letra e leitura fácil trabalham juntos.</p></article>
+            </div>
+        </section>
+
+        <!-- PDF -->
+        <section class="secao pdf-secao" id="pdf" aria-labelledby="tituloPdf">
+            <div class="pdf-conteudo">
+                <div>
+                    <span class="numero-secao">Material para levar</span>
+                    <h2 id="tituloPdf">Um guia acessível<br><span>para compartilhar.</span></h2>
+                    <p>O botão abaixo abre a janela de impressão. Escolha <strong>"Salvar como PDF"</strong>. O PDF leva o conteúdo, a transcrição, seus selos e seu plano de ação.</p>
+                    <label for="nomePessoa">Seu nome no PDF (opcional)</label>
+                    <input id="nomePessoa" type="text" maxlength="80" placeholder="Ex.: Ana Silva">
+                    <button class="botao botao-escuro" id="pdfButton" type="button">⬇ Baixar / imprimir PDF</button>
+                    <p class="status-pdf" id="statusPdf" aria-live="polite">Quiz ainda não respondido.</p>
+                </div>
+                <div class="folha" aria-hidden="true">
+                    <div class="folha-topo"><span>ODS 4</span><span>GUIA 01</span></div>
+                    <strong class="folha-numero">4</strong>
+                    <span class="folha-etiqueta">Educação de qualidade</span>
+                    <h3>Aprender<br>sem barreiras.</h3>
+                    <div class="linhas"><i></i><i></i><i></i><i></i></div>
+                    <small>Metas + ações + acessibilidade</small>
+                </div>
+            </div>
+            <p class="certificado-impressao" id="certificadoImpressao"></p>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div>
+            <a class="marca" href="#inicio"><span class="marca-numero" aria-hidden="true">4</span><span><strong>ODS 4</strong><small>Educação de Qualidade</small></span></a>
+            <p>Obrigado a estudantes, educadores e colaboradores. Junte-se ao movimento por uma educação onde ninguém é deixado para trás: aja, compartilhe e apoie a educação inclusiva.</p>
+        </div>
+        <div>
+            <strong>Navegue</strong>
+            <a href="#ods4">Metas ODS 4</a>
+            <a href="#quiz">Quiz</a>
+            <a href="#plano">Plano de ação</a>
+        </div>
+        <div>
+            <strong>Fontes</strong>
+            <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" rel="noreferrer">ONU Brasil ↗</a>
+            <a href="https://sdgs.un.org/goals/goal4" target="_blank" rel="noreferrer">Nações Unidas ↗</a>
+            <a href="https://www.ipea.gov.br/ods/ods4.html" target="_blank" rel="noreferrer">IPEA ↗</a>
+        </div>
+        <p class="rodape-nota">Vídeo: Centro Cultural Light. Conteúdo baseado nas referências oficiais da Agenda 2030.</p>
+    </footer>
+
+    
+</body>
+</html>
